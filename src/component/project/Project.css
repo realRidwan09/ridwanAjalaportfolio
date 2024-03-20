@@ -1,0 +1,46 @@
+.conntainer{
+    height: 100vh;
+    margin-top: 150px;
+}
+
+#projectImg{
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style: none;
+}
+
+#todo{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+p{
+    text-align: center;
+}
+
+#calculate{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+#calculate a{
+    color: black;
+    text-decoration: underline;
+}
+
+#todo a{
+    color: black;
+    text-decoration: underline;
+}
+

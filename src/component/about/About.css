@@ -1,0 +1,34 @@
+h1{
+    margin-left: 100px;
+}
+
+p{
+    margin-left: 100px;
+    /* text-align: center; */
+}
+
+h4{
+    margin-left: 100px;
+}
+
+#exprience{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sail{
+    margin-left: 100px;
+}
+
+#year{
+    margin-right: 200px;
+}
+
+#ulAbt{
+    margin-left: 75px;
+    flex-direction: column;
+}
+
+#liAbt{
+    list-style:square;
+}

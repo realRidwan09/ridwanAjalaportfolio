@@ -1,0 +1,61 @@
+.conContainer{
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+label{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.soMediabase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media{
+    display: flex;
+    margin-right: 200px;
+}
+
+a{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+h3{
+    margin-left: 100px;
+}
+
+#formail{
+    width: 300px ;
+    height: 40px;
+    align-items: center;
+}
+
+#textarea{
+    width: 450px;
+    align-items: center;
+}
+
+.conContainer button{
+     
+    height: 45px;
+    width: 150px;
+    color: white;
+    margin-left: 43%;
+    background-color: crimson;
+}
+
+#copyWrite{
+    background-color: aqua;
+}

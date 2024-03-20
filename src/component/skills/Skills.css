@@ -1,0 +1,18 @@
+span{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#skillWrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.coontainer{
+    height: 60vh;
+}
