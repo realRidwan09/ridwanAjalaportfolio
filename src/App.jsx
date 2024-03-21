@@ -11,7 +11,7 @@ import Contact from "./component/contact/Contact";
 
 function App(){
     return(
-        <>
+        <div style={{width: 100%}}>
             <Index/>
             <Legend/>
             <About/>
@@ -19,7 +19,7 @@ function App(){
             <Project/>
             <Contact/>
             
-        </>
+        </div>
     )
 }
 
