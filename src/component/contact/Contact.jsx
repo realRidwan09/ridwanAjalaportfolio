@@ -39,7 +39,7 @@ export default function Contact(probs){
                     <div id="logo">TFH</div>
                     <div id="links">
                         <span><a href="">Home</a></span>
-                        <span><a href="About.jsx">About</a></span>
+                        <span><a href="">About</a></span>
                         <span><a href="">Tech Stack</a></span>
                         <span><a href="">Projects</a></span>
                         <span><a href="">Contact Me</a></span>
