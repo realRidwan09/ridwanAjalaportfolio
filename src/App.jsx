@@ -11,7 +11,7 @@ import Contact from "./component/contact/Contact";
 
 function App(){
     return(
-        <div style={{width: 100%}}>
+        <div>
             <Index/>
             <Legend/>
             <About/>
