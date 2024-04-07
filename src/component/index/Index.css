@@ -27,3 +27,8 @@
     text-decoration: none;
     color: black;
   }
+
+  #burgerMenu{
+    margin-right: 50px;
+    display: none;
+}

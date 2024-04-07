@@ -21,7 +21,7 @@ label{
     font-size: xx-large;
 }
 
-.soMediabase{
+#soMediabase{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,8 +66,16 @@ a{
     background-color: aqua;
 }
 
-.pasocialmedia{
+#pasocialmedia{
     display: flex;
     gap: 150px;
     align-items: center;
+}
+
+#email{
+    color: white;
+}
+
+#message{
+    color: white;
 }

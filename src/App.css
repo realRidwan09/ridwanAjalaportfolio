@@ -58,6 +58,13 @@
     align-items: center;
   }
 
+  #burgerMenu{
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
 
 
   
@@ -96,4 +103,11 @@ button{
   align-items: center;
 }
   
+}
+
+#burgerMenu{
+  display: block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
