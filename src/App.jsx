@@ -15,8 +15,11 @@ function App(){
             <Index/>
             <Legend/>
             <About/>
-            <Skills/>
             <Project/>
+            <Skills/>
+           
+           
+           
             <Contact/>
             
         </div>

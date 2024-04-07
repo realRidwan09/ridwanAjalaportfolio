@@ -5,7 +5,7 @@ export default function Index(){
     return(
         <>
         <div id="nav">
-            <div id="logo">TFH</div>
+            <div id="logo">RA</div>
             <div id="links">
                 <span><a href="">Home</a></span>
                 <span><a href="">About</a></span>

@@ -11,22 +11,47 @@ export default function Skills(){
 
     return(
         <>
-        <div className="coontainer">
+        <div className="countainer">
             <div id="skillWrap">
-                <h1>My Tech Stack</h1>
-                <h3>Technology I have been working with recently</h3>
+                <h1>Skills</h1>
+                {/* <h3>Technology I have been working with recently</h3> */}
             </div>
             
             <span>
-                <img src={Group9} alt="Group9" />
-                <img src={Group10} alt="Group10" />
-                <img src={Group11} alt="Group11" />
+                <div id="group9">
+                    <img src={Group9} alt="Group9" width={"60px"} />
+                    <h2>HTML 5</h2>
+                </div>
+                
+                <div id="group10">
+                    <img src={Group10} alt="Group10" width={"60px"}/>
+                    <h2>CSS 3</h2>
+                </div>
+
+                <div id="group11">
+                     <img src={Group11} alt="Group11" width={"60px"}/>
+                    <h2>Javascript</h2>
+                </div>
+
             </span>
             <br />
             <br />
-            <span>  <img src={Group12} alt="Group12" />
-                    <img src={Group13} alt="Group13" />
-                    <img src={Group14} alt="Group14" />
+            <br />
+            <span>  
+                    <div id="group12">
+                        <img src={Group12} alt="Group12" width={"60px"}/>
+                        <h2>Github</h2>
+                    </div>
+
+                    <div id="group13">
+                        <img src={Group13} alt="Group13" width={"60px"}/>
+                        <h2>React</h2>
+                    </div>
+                   
+                   <div id="group14">
+                         <img src={Group14} alt="Group14" width={"60px"}/>
+                        <h2>Typescript</h2>
+                   </div>
             </span>
         </div>
         </>

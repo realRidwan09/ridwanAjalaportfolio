@@ -5,15 +5,6 @@ export default function About(){
     return(
         <>
         <div className="corntainer">
-            <h1>About Me</h1>
-
-            <p> 
-                I'm a Junior software engineer who is energetic, thorough and <br />
-                passionate about building dependable and efficient project. Enthusiastic <br />
-                to generate innovative ideas and contribute to exciting projects by working with <br />
-                cross-functional teams. A quick learner with a solid foundation in software development <br />
-                principles and a dedication to staying up to date with emerging technologies.
-            </p>
 
             <h1>Exprience</h1>
             

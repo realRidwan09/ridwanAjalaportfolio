@@ -3,6 +3,7 @@
     margin-top: 150px;
 }
 
+
 #projectImg{
     width: 250px;
     height: 250px;
@@ -24,7 +25,11 @@ li{
     width: 350px;
 }
 
-p{
+.conntainer h1{
+    text-align: center;
+}
+
+.conntainer p{
     text-align: center;
 }
 
