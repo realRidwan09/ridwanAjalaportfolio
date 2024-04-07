@@ -1,13 +1,13 @@
 .conntainer{
-    height: 100vh;
-    margin-top: 150px;
+    height: 90vh;
+   
 }
 
 
 #projectImg{
     width: 250px;
     height: 250px;
-    /* margin-left: 100px; */
+
 }
 
 ul{
@@ -71,5 +71,8 @@ li{
     color: black;
     text-decoration: underline;
 }
+
+
+
 
 

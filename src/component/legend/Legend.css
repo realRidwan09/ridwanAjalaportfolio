@@ -1,5 +1,5 @@
 #container{
-  height: 60vh;
+  height: 50vh;
 }
 
 .legenddiv{
@@ -25,4 +25,20 @@
     border-width: 2px;
     border-style: solid;
     border-color:black;
+  }
+
+  @media screen and (max-width: 750px) {
+    .legenddiv{
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .legenddiv{
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+    }
   }

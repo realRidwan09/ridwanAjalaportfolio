@@ -1,8 +1,22 @@
-.corntainer h1{
+.orntainer{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+   
+    
+}
+
+.exprienceWrap{
+    display: flex;
+    flex-direction: column;
+}
+.orntainer h1{
     margin-left: 50px;
 }
 
-.corntainer p{
+.orntainer p{
     margin-left: 100px;
     
 }
@@ -13,7 +27,7 @@ h4{
 
 #exprience{
     display: flex;
-    justify-content: space-between;
+   
 }
 
 #sail{
@@ -21,7 +35,7 @@ h4{
 }
 
 #year{
-    margin-right: 200px;
+    /* margin-right: 200px; */
 }
 
 #ulAbt{
@@ -32,3 +46,4 @@ h4{
 #liAbt{
     list-style:square;
 }
+

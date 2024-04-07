@@ -1,18 +1,20 @@
 import "./About.css"
 
-export default function About(){
+ function About(){
     
     return(
         <>
-        <div className="corntainer">
+        <div className="orntainer">
 
-            <h1>Exprience</h1>
+                <h1>Exprience</h1>
             
                 <div className="exprienceWrap">
-                    <h4>Boot Camp</h4>
-                    <div id="exprience">
-                        <span id="sail">Sail Innovation Lab</span>
-                        <span id="year">2024</span>
+                    <div className="boot">
+                        <h4>Boot Camp</h4>
+                        <div id="exprience">
+                            <span id="sail">Sail Innovation Lab</span>
+                            <span id="year">2024</span>
+                        </div>
                     </div>
 
                     <ul id="ulAbt">
@@ -28,3 +30,5 @@ export default function About(){
         </>
     )
 }
+
+export default About

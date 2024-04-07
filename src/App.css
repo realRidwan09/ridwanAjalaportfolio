@@ -1,113 +1,482 @@
-:root{
-  width: 100%}
-
-@media screen and (max-width: 750px) {
-
-  #container{
-    flex-direction: column;
+@media screen and (max-width:750px) {
+    
+  #burgerMenu{
+    display: block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 
   }
 
-  .left{
+  #nav{
+    width: 70%;
+    height: 80px;
     display: flex;
-    justify-content: space-around;
-    margin: 40px;
-  }
-
-  .leftWrap{
     align-items: center;
-  }
-
-  .leftWrap div{
-    font-size: 38px;
-    font-weight: 600;
-    margin-left: 0px;
-    color: rgb(5, 5, 16);
-  }
-
-  .leftWrap span{
-    margin-top: 90px;
-  }
-  
-  .corntainer{
-    margin-top: 150px;
+    justify-content: space-between;
+   
   }
 
   #logo{
     display: none;
   }
+    .legenddiv{
+        flex-direction: column;
+        width: 75%;
+    }
 
-  #nav span{ 
+    .orntainer{
+        margin-top: 25%;
+        display: flex;
+        justify-content: center;
+        width: 75%;
+    }
+
+    .conntainer{
+        width: 75%;
+    }
+
     
-    margin-left: 150px;
-  }
 
-  ul{
-  
-    align-items: center;
-    
-  }
+    ul{
+        
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        width: 75%;
+        
+    }
 
+    .countainer{
+        
+        margin-top: 105%;
+       
+    }
 
-  .soMediabase{
-    align-items: center;
-  }
+    #img{
+        flex-direction: column;
+    }
 
+    #group9{
+        margin: 10px;
+        align-items: center;
+      }
+      #group10{
+        margin: 10px;
+        align-items: center;
+      }
 
-  form{
-    align-items: center;
-  }
+      #group11{
+        margin: 10px;
+        align-items: center;
+      }
 
-  #burgerMenu{
-    display: block;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
+      #group12{
+        margin: 10px;
+        align-items: center;
+      }
+
+      #group13{
+        margin: 10px;
+        align-items: center;
+      }
+
+      #group14{
+        margin: 10px;
+        align-items: center;
+      }
+
+    .conContainer{
+        flex-direction: column;
+        margin-top: 50%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
-
+@media screen and (max-width:650px) {
+    
+   
+      .legenddiv{
+          flex-direction: column;
+          text-align: center;
+          width: 75%;
+      }
   
+      .orntainer{
+          margin-top: 50%;
+          flex-direction: column;
+        display: flex;
+        justify-content: center;
+      }
 
-@media screen and (max-width: 400px) {
+      #exprience{
+        display: flex;
+        gap: 50px;
+      }
+  
+      ul{
+        
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        
+    }
+      .pro{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+      }
+  
+      .countainer{
+          flex-direction: column;
+          margin-top: 150%;
+      }
 
-  #container{
+      #img{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        /* margin-top: 10%; */
+      }
+  
+      .conContainer{
+          flex-direction: column;
+          margin-top: 52%;
+          width: 90%;
+          display: flex;
+          justify-content: center;
+      }
+
+      #soMediabase{
+        flex-direction: column;
+      }
+
+      #group9{
+        margin: 10px;
+        align-items: center;
+      }
+      #group10{
+        margin: 10px;
+        align-items: center;
+      }
+
+      #group11{
+        margin: 10px;
+        align-items: center;
+      }
+
+      #group12{
+        margin: 10px;
+        align-items: center;
+      }
+
+      #group13{
+        margin: 10px;
+        align-items: center;
+      }
+
+      #group14{
+        margin: 10px;
+        align-items: center;
+      }
+
+      #nav span{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+      }
+
+
+
+      #logo{
+        display: none;
+      }
+  }
+  
+  @media screen and (max-width:500px) {
+    
+   
+    .legenddiv{
+        flex-direction: column;
+        text-align: center;
+        width: 75%;
+    }
+
+    .orntainer{
+        margin-top: 55%;
+        flex-direction: column;
+      display: flex;
+      justify-content: center;
+      width: 60%;
+    }
+
+    #exprience{
+      display: flex;
+      gap: 50px;
+    }
+
+    ul{
+      
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      
+  }
+    .pro{
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+    }
+
+    .countainer{
+        flex-direction: column;
+        margin-top: 150%;
+    }
+
+    #img{
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      /* margin-top: 10%; */
+    }
+
+    .conContainer{
+        flex-direction: column;
+        margin-top: 60%;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #soMediabase{
+        flex-direction: column;
+        width: 40%;
+    }
+
+    #group9{
+      margin: 10px;
+      align-items: center;
+    }
+    #group10{
+      margin: 10px;
+      align-items: center;
+    }
+
+    #group11{
+      margin: 10px;
+      align-items: center;
+    }
+
+    #group12{
+      margin: 10px;
+      align-items: center;
+    }
+
+    #group13{
+      margin: 10px;
+      align-items: center;
+    }
+
+    #group14{
+      margin: 10px;
+      align-items: center;
+    }
+
+    #nav span{
+      width: 100%;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+    }
+
+
+
+    #logo{
+      display: none;
+    }
+}
+
+
+@media screen and (max-width:490px){
+    .orntainer{
+        margin-top: 68%;
+        flex-direction: column;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+
+      
+    }
+
+    .legenddiv{
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    
+#formail{
+    width: 80% ;
+    height: 40px;
+    align-items: center;
+}
+
+#textarea{
+    width: 80%;
+    align-items: center;
+}
+
+.countainer{
     flex-direction: column;
-  }
+    margin-top: 155%;
+}
 
-  ul{
-    flex-direction: column;
-    align-items: center;
+.conContainer button{
+     
+    height: 45px;
+    width: 150px;
+    color: black;
+    margin-left: 63%;
+    margin-top: 20px;
+    background-color:white;
+}
+
+}
+
+
+  @media screen and (max-width:350px) {
+
     
+    .legenddiv{
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+    }
+
+    .orntainer{
+        margin-top: 108%;
+        flex-direction: column;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+
+    #exprience{
+      display: flex;
+      gap: 30px;
+    }
+
+    ul{
+      
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      
   }
+    .pro{
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+    }
 
-  .conntainer{
-    margin-bottom: 150px;
-    align-items: center;
-  }
+    .countainer{
+        flex-direction: column;
+        margin-top: 250%;
+    }
 
-  h1{
-    text-align: center;
-  }
+    #img{
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+     
+    }
+
+    .conContainer{
+        flex-direction: column;
+        margin-top: 117%;
+        width: 5%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #soMediabase{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+
+    #formail{
+   
+        margin: 40px;
+        height: 40px;
+        align-items: center;
+    }
+    
+    #textarea{
+        width: px;
+        align-items: center;
+        margin: 40px;
+
+    }
+
+    #group9{
+      margin: 10px;
+      align-items: center;
+    }
+    #group10{
+      margin: 10px;
+      align-items: center;
+    }
+
+    #group11{
+      margin: 10px;
+      align-items: center;
+    }
+
+    #group12{
+      margin: 10px;
+      align-items: center;
+    }
+
+    #group13{
+      margin: 10px;
+      align-items: center;
+    }
+
+    #group14{
+      margin: 10px;
+      align-items: center;
+    }
+
+    #nav span{
+      width: 100%;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+    }
+
+
+
+    #logo{
+      display: none;
+    }
 }
 
-form{
-  align-items: center;
-}
 
-button{
-  align-items: center;
-}
 
-.soMediabase{
-  align-items: center;
-}
-  
-}
 
-#burgerMenu{
-  display: block;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-}

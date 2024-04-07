@@ -1,8 +1,8 @@
-span{
+#img{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 30px;
+   
     
 }
 
@@ -15,7 +15,7 @@ span{
 
 
 .countainer{
-    height: 80vh;
+    height: 50vh;
 }
 
 .countainer h1{
@@ -69,5 +69,8 @@ span{
 #group14 h2{
     margin-left: 20px;
 }
+
+
+
 
 

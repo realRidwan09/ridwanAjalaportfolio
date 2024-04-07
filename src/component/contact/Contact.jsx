@@ -38,10 +38,7 @@ export default function Contact(probs){
 
                             </div>   
                         </div>
-
-                    </div>
-
-                    <form action="">
+                        <form action="">
                         
                         <label id="email">Email:</label>
                         <input id="formail" type="text" placeholder="enter email address" /> 
@@ -51,19 +48,13 @@ export default function Contact(probs){
                         <button>Send message</button>
                     </form>
                     
+                    </div>
+
+                    
+                    
                 </div>
 
-                    <div id="nav">
-                        <div id="logo">RA</div>
-                        <div id="links">
-                            <span><a href="">Home</a></span>
-                            <span><a href="">About</a></span>
-                            <span><a href="">Tech Stack</a></span>
-                            <span><a href="">Projects</a></span>
-                            <span><a href="">Contact Me</a></span>
-                        </div>
-
-                    </div>
+                   
 
            
         

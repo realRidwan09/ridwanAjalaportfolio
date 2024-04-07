@@ -1,8 +1,25 @@
 import React from 'react'
-import "./Index.css"
+import "./Nav.css"
 import menu from "../../assets/menu.png"
+import { useState } from 'react'
 
-export default function Index(){
+
+
+
+export default function Nav(){
+
+    const [togglemenu, setmenutoggle] = useState({links:""})
+
+    const burgerMenu = ()=>{
+
+    setmenutoggle(()=>{
+        })}
+    
+    
+    
+
+    
+
     return(
         <>
         <div id="nav">
@@ -16,8 +33,8 @@ export default function Index(){
                 </div>
 
                 <div>
-                    <button id="burgerMenu">
-                    <img id="Burgermenu" src={menu} alt="menu.png" />
+                    <button id="burgerMenu" onClick={burgerMenu}>
+                    <img id="Burgermenu" src={menu} alt="menu.png" width={"30px"} />
                     </button>
                 </div>
         </div>
