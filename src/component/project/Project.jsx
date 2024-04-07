@@ -1,6 +1,7 @@
 import React from "react"
 import toDo from "../../assets/toDo.png"
 import Calcul from "../../assets/Calcul.png"
+import textcounter from "../../assets/textcounter.png"
 import "./Project.css"
 
 
@@ -26,7 +27,7 @@ export default function Project(){
                           modify them as needed.
                           
                     </p>
-                    <a href="https://65f9fe4925b2f61ce5b18861--realridport.netlify.app/">live preview</a>
+                    <a href="https://to-dolist-project.vercel.app/">live preview</a>
                 </li>
 
                 <li id="calculate">  
@@ -40,6 +41,19 @@ export default function Project(){
                         </p>
                         <a href="https://65f9fd57ee790b2060ac1ab4--realridport.netlify.app/">live preview</a>
                         
+                </li>
+
+                <li id="Tcounter"> 
+                    <img id="projectImg" src={textcounter} alt="textcounter.png" />
+
+                     <p>
+                        
+                        Creating a text counter was an excellent method to begin
+                        learning about input and output handling and basic string manipulation.
+                        For this project, I used REACT, which offered simple routines for handling strings.
+                          
+                    </p>
+                    <a href="https://textcounter-two.vercel.app/">live preview</a>
                 </li>
 
                

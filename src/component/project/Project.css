@@ -7,7 +7,7 @@
 #projectImg{
     width: 250px;
     height: 250px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 ul{
@@ -19,11 +19,7 @@ li{
     list-style: none;
 }
 
-#todo{
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-}
+
 
 .conntainer h1{
     text-align: center;
@@ -36,7 +32,7 @@ li{
 #calculate{
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 250px;
 }
 
 #calculate a{
@@ -48,4 +44,32 @@ li{
     color: black;
     text-decoration: underline;
 }
+
+#todo{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+#todo img{
+    align-items: center;
+} 
+
+#todo p{
+    
+    width: 100%;
+    text-align: center;
+}
+
+#Tcounter{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+#Tcounter a{
+    color: black;
+    text-decoration: underline;
+}
+
 
