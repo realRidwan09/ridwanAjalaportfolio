@@ -455,7 +455,7 @@
     }
 
     .orntainer{
-        margin-top: 108%;
+        margin-top: 98%;
         flex-direction: column;
       display: flex;
       justify-content: center;
@@ -486,7 +486,7 @@
 
     .conntainer{
         flex-direction: column;
-        margin-top: 20%;
+        margin-top: 10%;
     }
 
 
@@ -504,7 +504,7 @@
 
     .conContainer{
         flex-direction: column;
-        margin-top: 112%;
+        margin-top: 102%;
         margin-left: 70px;
         display: flex;
         justify-content: center;
