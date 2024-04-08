@@ -288,7 +288,7 @@
 
 @media screen and (max-width:550px){
     .orntainer{
-        margin-top: 68%;
+        margin-top: 70%;
         flex-direction: column;
       display: flex;
       justify-content: center;
@@ -306,13 +306,13 @@
    
 .concontainer{
     flex-direction: column;
-    margin-top: 155%;
+    margin-top: 160%;
     margin-left: 100px;
 }
 
 .countainer{
     flex-direction: column;
-    margin-top: 155%;
+    margin-top: 160%;
 }
 
 .conContainer button{
@@ -330,7 +330,7 @@
 
 @media screen and (max-width:500px){
     .orntainer{
-        margin-top: 68%;
+        margin-top: 75%;
         flex-direction: column;
       display: flex;
       justify-content: center;
@@ -347,7 +347,7 @@
 
 .countainer{
     flex-direction: column;
-    margin-top: 150%;
+    margin-top: 160%;
 }
 
 .conContainer{
@@ -364,7 +364,7 @@
 @media screen and (max-width:450px){
 
     .orntainer{
-        margin-top: 68%;
+        margin-top: 80%;
         flex-direction: column;
       display: flex;
       justify-content: center;
@@ -386,7 +386,7 @@
 
 .conContainer{
     flex-direction: column;
-    margin-top: 70%;
+    margin-top: 80%;
     width: 30%;
     display: flex;
     justify-content: center;
