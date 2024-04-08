@@ -9,7 +9,7 @@
   }
 
   #nav{
-    /* width: 70%; */
+   
     height: 80px;
     display: flex;
     align-items: center;
@@ -31,9 +31,6 @@
         justify-content: center;
        
     }
-
-   
-    
 
     ul{
         
@@ -252,7 +249,7 @@
 
     #soMediabase{
         flex-direction: column;
-        /* width: 40%; */
+       
     }
 
     #group9{
@@ -283,17 +280,6 @@
       margin: 10px;
       align-items: center;
     }
-
-    #nav span{
-      /* width: 100%; */
-      height: 80px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-     
-    }
-
-
 
     #logo{
       display: none;
@@ -371,6 +357,7 @@
 
 
 @media screen and (max-width:435px){
+
     .orntainer{
         margin-top: 68%;
         flex-direction: column;
@@ -386,10 +373,6 @@
         text-align: center;
         margin-left: 70px;
     }
-
-   
-
-    
 
 .countainer{
     flex-direction: column;
@@ -449,7 +432,6 @@
 .conContainer{
     flex-direction: column;
     margin-top: 90%;
-    
     display: flex;
     justify-content: center;
 }
@@ -517,12 +499,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* margin-left: 150px; */
+      
         
     }
 
 
-    }
+    
 
     #group9{
       margin: 10px;
@@ -567,7 +549,9 @@
     #logo{
       display: none;
     }
+
 }
+
 
 
 
