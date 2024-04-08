@@ -445,7 +445,7 @@
 }
 
 
-  @media screen and (max-width:360px) {
+  @media screen and (max-width:380px) {
 
     
     .legenddiv{
@@ -556,6 +556,120 @@
     #logo{
       display: none;
     }
+    @media screen and (max-width:360px) {
+
+    
+        .legenddiv{
+            flex-direction: column;
+            text-align: center;
+           margin-left: 70px;
+        }
+    
+        .orntainer{
+            margin-top: 120%;
+            flex-direction: column;
+          display: flex;
+          justify-content: center;
+          text-align: center;
+        }
+    
+        #exprience{
+          display: flex;
+          gap: 30px;
+        }
+    
+        ul{
+          
+          flex-direction: column;
+          display: flex;
+          justify-content: center;
+          
+      }
+        .pro{
+          flex-direction: column;
+          display: flex;
+          justify-content: center;
+        }
+    
+        #skillWrap{
+            margin-top: 80%;
+        }
+    
+        .conntainer{
+            flex-direction: column;
+            margin-top: 200%;
+        }
+    
+    
+        .countainer{
+            flex-direction: column;
+            margin-top: 320%;
+        }
+    
+        #img{
+          flex-direction: column;
+          display: flex;
+          justify-content: center;
+         
+        }
+    
+        .conContainer{
+            flex-direction: column;
+            margin-top: 130%;
+            margin-left: 70px;
+            display: flex;
+            justify-content: center;
+        }
+    
+        #soMediabase{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          
+            
+        }
+    
+    
+        
+    
+        #group9{
+          margin: 10px;
+          align-items: center;
+        }
+        #group10{
+          margin: 10px;
+          align-items: center;
+        }
+    
+        #group11{
+          margin: 10px;
+          align-items: center;
+        }
+    
+        #group12{
+          margin: 10px;
+          align-items: center;
+        }
+    
+        #group13{
+          margin: 10px;
+          align-items: center;
+        }
+    
+        #group14{
+          margin: 10px;
+          align-items: center;
+        }
+    
+        
+    
+    
+        #logo{
+          display: none;
+        }
+    
+    }
+    
 
 }
 
