@@ -347,12 +347,12 @@
 
 .countainer{
     flex-direction: column;
-    margin-top: 160%;
+    margin-top: 155%;
 }
 
 .conContainer{
     flex-direction: column;
-    margin-top: 70%;
+    margin-top: 65%;
     display: flex;
     justify-content: center;
 }
@@ -381,12 +381,12 @@
 
 .countainer{
     flex-direction: column;
-    margin-top: 140%;
+    margin-top: 135%;
 }
 
 .conContainer{
     flex-direction: column;
-    margin-top: 80%;
+    margin-top: 75%;
     width: 30%;
     display: flex;
     justify-content: center;
@@ -436,7 +436,7 @@
 
 .conContainer{
     flex-direction: column;
-    margin-top: 90%;
+    margin-top: 85%;
     display: flex;
     justify-content: center;
 }
@@ -486,13 +486,13 @@
 
     .conntainer{
         flex-direction: column;
-        margin-top: 200%;
+        margin-top: 175%;
     }
 
 
     .countainer{
         flex-direction: column;
-        margin-top: 280%;
+        margin-top: 270%;
     }
 
     #img{
@@ -504,7 +504,7 @@
 
     .conContainer{
         flex-direction: column;
-        margin-top: 117%;
+        margin-top: 112%;
         margin-left: 70px;
         display: flex;
         justify-content: center;
@@ -597,7 +597,7 @@
     
         .conntainer{
             flex-direction: column;
-            margin-top: 200%;
+            margin-top: 190%;
         }
     
     
@@ -615,7 +615,7 @@
     
         .conContainer{
             flex-direction: column;
-            margin-top: 130%;
+            margin-top: 125%;
             margin-left: 70px;
             display: flex;
             justify-content: center;
