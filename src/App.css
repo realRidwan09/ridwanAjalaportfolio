@@ -486,13 +486,13 @@
 
     .conntainer{
         flex-direction: column;
-        margin-top: 140%;
+        margin-top: 100%;
     }
 
 
     .countainer{
         flex-direction: column;
-        margin-top: 250%;
+        margin-top: 220%;
     }
 
     #img{
