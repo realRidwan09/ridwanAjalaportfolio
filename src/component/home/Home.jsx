@@ -1,10 +1,28 @@
 import React from 'react'
-import "./Legend.css"
+import "./Home.css"
 import mypic from '../../assets/mypic.jpg'
+import { Link } from 'react-router-dom'
 
-export default function Legend(){
+export default function Home(){
     return(
         <>
+
+        <div id="nav">
+            <div id="logo">RA</div>
+                <div id="links">
+                    <Link to={'./'}><span>Home</span></Link>
+                    <Link to={'./about'}><span>About</span></Link>
+                   <Link to={'/skills'}> <span>Tech Stack</span></Link>
+                   <Link to = {'/project'}> <span>Projects</span></Link>
+                    <Link to = {'/contact'}><span>Contact</span></Link>
+                </div>
+
+                {/* <div>
+                    <button id="burgerMenu" onClick={burgerMenu}>
+                    <img id="Burgermenu" src={menu} alt="menu.png" width={"30px"} />
+                    </button>
+                </div> */}
+        </div>
         <div id='container'>
             <div className="legenddiv">
                 <div className="left">
